@@ -1,3 +1,7 @@
+* { /* YORUM SATIRI */
+  color: blue;
+}
+
 body {
     background-color: lightblue;
   }
@@ -12,4 +16,8 @@ body {
     font-family: verdana;
     font-size: 20px;
     color: red;
+  }
+
+  p.large{
+    font-size: 300%;
   }
