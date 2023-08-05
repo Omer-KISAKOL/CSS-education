@@ -1,0 +1,93 @@
+    h2 {
+    letter-spacing: 5px;
+  }
+  
+    h3 {
+    letter-spacing: -2px;
+  }
+
+    p.b1 {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    text-transform: uppercase;
+    text-indent: 50px;
+  }
+  
+  p.b2 {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-thickness: auto;
+    text-transform: lowercase;
+
+  }
+  
+  p.b3 {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;  
+    text-decoration-thickness: 25%;
+    text-transform: capitalize;
+
+  }
+  
+  p.b4 {
+    text-decoration-line: underline;
+    text-decoration-style: dashed;  
+  }
+  
+  p.b5 {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;  
+  }
+  
+  p.b6 {
+    text-decoration-line: underline;
+    text-decoration-color: red;  
+    text-decoration-style: wavy;  
+    text-decoration-thickness: 50%;
+    text-indent: 100px;
+  }
+
+  p.b7 {text-decoration: underline red double 5px;}
+
+  p.small {
+    line-height: 0.7;
+  }
+  
+  p.big {
+    line-height: 1.8;
+  }
+
+  p.uzun {
+    word-spacing: 10px;
+  }
+  
+  p.kısa {
+    word-spacing: -2px;
+  }
+
+  p.nonebosluk {
+    white-space: nowrap;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  h1.golge1 {
+    text-shadow: 2px 2px 5px red;
+  }
+
+  h1.golge2 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  h1.golge3 {
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+  }
+
+  h1.golge4 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
