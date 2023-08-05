@@ -1,0 +1,39 @@
+img.a1 {
+    vertical-align: baseline;
+  }
+  
+  img.a2 {
+    vertical-align: text-top;
+  }
+  
+  img.a3 {
+    vertical-align: text-bottom;
+  }
+  
+  img.a4 {
+    vertical-align: sub;
+  }
+  
+  img.a5 {
+    vertical-align: super;
+  }
+
+  p.b1 {
+    text-decoration: overline;
+    text-decoration-color: red;
+  }
+  
+  p.b2 {
+    text-decoration: line-through;
+    text-decoration-color: blue;
+  }
+  
+  p.b3 {
+    text-decoration: underline;
+    text-decoration-color: green;
+  }
+  
+  p.b4 {
+    text-decoration: overline underline;
+    text-decoration-color: purple;
+  }
