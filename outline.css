@@ -1,0 +1,46 @@
+p.bir {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thin;
+  }
+  
+  p.iki {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: medium;
+  }
+  
+  p.uc {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thick;
+  }
+  
+  p.dort {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: 4px;
+  }
+
+    p.bes {outline: dashed;}
+    p.alti {outline: dotted red;}
+    p.yedi {outline: 5px solid yellow;}
+    p.sekiz {outline: thick ridge pink;}
+    
+    p.dokuz {
+        margin: 30px;
+        background: yellow;
+        border: 1px solid black;
+        outline: 3px solid red;
+        outline-offset: 15px;
+      }
+
+    p.on {
+        text-align-last: center;
+        direction: rtl;
+        unicode-bidi: bidi-override;
+    }
