@@ -1,0 +1,22 @@
+ol {
+    background: #000000;
+    padding: 20px;
+  }
+  
+  ul {
+    background: #3399ff;
+    padding: 20px;
+  }
+  
+  ol li {
+    background: #ffe5e5;
+    color: rgb(255, 0, 0);
+    padding: 5px;
+    margin-left: 35px;
+  }
+  
+  ul li {
+    background: #ff88f1a4;
+    color: darkblue;
+    margin: 5px;
+  }
