@@ -1,0 +1,11 @@
+a {
+    display: block;
+  }
+
+h1.hidden {
+    display: none;
+  }
+
+  h1.visib {
+    visibility: hidden;
+  }
