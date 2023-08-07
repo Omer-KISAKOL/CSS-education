@@ -1,0 +1,24 @@
+img{
+    float: left;
+}
+
+p {
+    font-size: 30px;
+}
+
+div {
+    float: left;
+    padding: 30px; 
+  }
+  
+  .div1 {
+    background: red;
+  }
+  
+  .div2 {
+    background: yellow;
+  }
+  
+  .div3 {
+    background: green;
+  }
