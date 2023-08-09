@@ -1,0 +1,16 @@
+  p:first-child {
+    color: blue;
+  } 
+
+  p i:first-child { /* İlk p deki ilk i */
+    color: blue;
+  } 
+
+/*  İlk p deki i ler
+  p:first-child i {
+    color: blue;
+  }  */
+
+  q:lang(no) {
+    quotes: "~" "~";
+  }
