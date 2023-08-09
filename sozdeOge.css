@@ -1,0 +1,28 @@
+  p::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+  }
+
+  p::first-letter {
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+  }
+
+  h1::before {
+    content: url(assets/img_tree.png);
+  }
+
+  h1::after {
+    content: url(assets/img_tree.png);
+  }
+
+  ::marker { 
+    color: red;
+    font-size: 20px;
+  }
+
+  ::selection {
+    color: red;
+    background: black;
+  }
+
