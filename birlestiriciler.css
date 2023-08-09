@@ -1,0 +1,11 @@
+  div > p { /* divin içindeki p */
+    background-color: yellow;
+  }
+
+  div + p { /* div den sonra ki ilk p */
+    background-color: yellow;
+  }
+
+  div ~ p { /* div den sonra gelen her p */
+    background-color: yellow;
+  }
