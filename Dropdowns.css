@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+}
+
+.buton {
+    background-color:blue;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+    border: 5px solid lightblue;
+    cursor: pointer;
+}
+
+.sekme {
+    position: relative;
+    display: inline-block;
+}
+
+.linkler {
+    display: none;
+    position: absolute;
+    background-color: aqua;
+    min-width: 160px;
+    box-shadow: 5px 6px 10px 0px rgba(239, 14, 255, 0.9);
+    z-index: 1;
+}
+
+.linkler a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.linkler a:hover {
+    background-color: lightcoral
+}
+
+.sekme:hover .linkler {
+    display:block;
+}
+
+.sekme:hover .buton {
+    background-color: #3d4983;
+}
+/* 
+   dropdown = sekme
+   dropbtn = buton
+   dropdown-content = likler 
+   */
