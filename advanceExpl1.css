@@ -8,19 +8,19 @@ body{
     justify-content: space-between;
 }
 
-.div1 {
+.write_img {
     padding: 20px;
     margin: 20px;
     border: 1px solid black;
 }
 
-.div2 {
+.onlyimg {
     padding: 20px;
     margin: 20px;
     border: 1px solid black;
 }
 
-.div2 img{
+.onlyimg img{
     margin-top: 142px;
 }
 
