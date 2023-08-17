@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.div1 {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+}
