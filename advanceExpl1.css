@@ -13,3 +13,20 @@ body{
     margin: 20px;
     border: 1px solid black;
 }
+
+.div2 {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.div2 img{
+    margin-top: 142px;
+}
+
+@media screen and (max-width:900px) {
+    body {
+        float: none;
+        flex-direction: column;
+    }
+}
