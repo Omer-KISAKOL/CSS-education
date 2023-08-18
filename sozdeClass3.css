@@ -6,11 +6,11 @@
     color: blue;
   } 
 
-/*  İlk p deki i ler
-  p:first-child i {
-    color: blue;
-  }  */
-
   q:lang(no) {
     quotes: "~" "~";
   }
+
+  /*  İlk p deki i ler
+  p:first-child i {
+    color: blue;
+  }  */
