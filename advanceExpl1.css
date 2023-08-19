@@ -6,6 +6,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    
 }
 
 .write_img {
@@ -30,3 +31,18 @@ body{
         flex-direction: column;
     }
 }
+
+
+/*
+
+.layout {
+    width: 100%;
+
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  grid-auto-flow: row dense;
+}
+
+*/
