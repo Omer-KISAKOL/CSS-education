@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: auto;
+  }
+ 
+  .write_img{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  .onlyimg{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+
+  .write_img img{
+    max-width: 460px;
+    max-height:200px;
+}
+
+  .onlyimg img{
+    margin-top: 142px;
+    max-width: 460px;
+    max-height:200px;
+}
+
+
+
+@media screen and (max-width:900px) {
+    body {
+        display: block;
+        grid-template-columns: auto;
+    }
+}
